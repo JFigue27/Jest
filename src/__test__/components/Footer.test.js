@@ -9,7 +9,7 @@ describe('<Footer />', () => {
   test('Render del componente Footer', () => {
     expect(footer.length).toEqual(1);
   });
-  test('Reder del Titulo', () => {
+  test('Render del Titulo', () => {
     expect(footer.find('.Footer-title').text()).toEqual('Platzi Store');
   });
 });
